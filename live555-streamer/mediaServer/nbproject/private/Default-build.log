@@ -1,0 +1,7 @@
+c++ -c -I../UsageEnvironment/include -I../groupsock/include -I../liveMedia/include -I../BasicUsageEnvironment/include -I. -I/usr/local/include   -I/usr/local/opt/openssl/include -DBSD=1 -O -DSOCKLEN_T=socklen_t -DHAVE_SOCKADDR_LEN=1 -DTIME_BASE=int -DNEED_XLOCALE_H=1 -Wall live555MediaServer.cpp
+c++ -c -I../UsageEnvironment/include -I../groupsock/include -I../liveMedia/include -I../BasicUsageEnvironment/include -I. -I/usr/local/include   -I/usr/local/opt/openssl/include -DBSD=1 -O -DSOCKLEN_T=socklen_t -DHAVE_SOCKADDR_LEN=1 -DTIME_BASE=int -DNEED_XLOCALE_H=1 -Wall DynamicRTSPServer.cpp
+c++ -o live555MediaServer -L. -L/usr/local/opt/openssl/lib live555MediaServer.o DynamicRTSPServer.o ../liveMedia/libliveMedia.a ../groupsock/libgroupsock.a ../BasicUsageEnvironment/libBasicUsageEnvironment.a ../UsageEnvironment/libUsageEnvironment.a /usr/lib/libssl.46.dylib /usr/lib/libcrypto.44.dylib
+c++: error: /usr/lib/libssl.46.dylib: Нет такого файла или каталога
+c++: error: /usr/lib/libcrypto.44.dylib: Нет такого файла или каталога
+Makefile:56: recipe for target 'live555MediaServer' failed
+make: *** [live555MediaServer] Error 1

@@ -1,0 +1,46 @@
+gcc -o main.out -std=c99 -Wextra my.c -lavcodec -lswscale -lavutil
+
+sudo apt-get install libswscale-dev
+sudo apt install ffmpeg
+
+https://stackoverflow.com/questions/2940671/how-does-one-encode-a-series-of-images-into-h264-using-the-x264-c-api
+
+https://github.com/angel-devil/live555_rtsp_live_v4l2
+
+https://web-answers.ru/c/kak-napisat-live555-framedsource-chtoby-pozvolit.html
+
+
+
+https://github.com/mpromonet/v4l2rtspserver
+
+
+https://stackoverflow.com/questions/16647097/live555-low-latency-video-stream-from-ffmpeg-encoder
+
+https://github.com/alm4096/FFMPEG-Live555-H264-H265-Streamer
+
+https://stackoverflow.com/questions/24073238/stream-h264-using-live555-and-ffmpeg
+
+http://cardinalpeak.com/blog/the-h-264-sequence-parameter-set/
+
+https://stackoverflow.com/questions/45194397/how-to-use-ffmpeg-h264-encoder-in-webrtc
+
+https://web-answers.ru/c/ispolzovanie-live555-dlja-potokovoj-peredachi.html
+
+http://www.live555.com/liveMedia/faq.html#control-flow
+
+https://github.com/sipsorcery/mediafoundationsamples/blob/master/MFWebCamRtp/MFWebCamRtp.cpp
+https://stackoverflow.com/questions/35207998/use-media-foundation-h-264-encoder-with-live555
+
+https://stackoverflow.com/questions/27279161/using-live555-to-stream-live-video-from-an-ip-camera-connected-to-an-h264-encode
+
+
+https://github.com/MESAI/FFmpegRTSPServer
+
+http://mesai0.blogspot.com/2015/09/ffmpeg-h264-rtsp-server-using-live555-c.html
+
+
+
+
+https://stackoverflow.com/questions/19427576/live555-x264-stream-live-source-based-on-testondemandrtspserver
+
+

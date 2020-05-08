@@ -1,0 +1,17 @@
+use_ozone=true
+is_desktop_linux=false
+is_clang=true
+use_sysroot=false
+rtc_include_internal_audio_device=false
+rtc_use_h264=true
+ffmpeg_branding="Chrome"
+is_debug=false
+rtc_include_tests=false
+rtc_enable_protobuf=false
+use_custom_libcxx=false
+rtc_include_pulse_audio=false
+rtc_build_examples=false
+rtc_build_tools=false
+treat_warnings_as_errors=false
+rtc_enable_libevent=false
+rtc_build_libevent=false
